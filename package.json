@@ -12,8 +12,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "parcel index.html ",
+    "build": "parcel build index.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,5 +34,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartik739/react_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kartik739/react_project/issues"
+  },
+  "homepage": "https://github.com/kartik739/react_project#readme"
 }
